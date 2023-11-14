@@ -25,5 +25,15 @@
   "cSpell.ignorePaths": [],
   "cSpell.useGitignore": true,
   "cSpell.enableFiletypes": ["*"],
-  "cSpell.words": ["esbenp", "foxundermoon", "pubspec"]
+  "cSpell.words": [
+    "bools",
+    "combinators",
+    "esbenp",
+    "foxundermoon",
+    "ints",
+    "pubspec",
+    "redeclares",
+    "todos",
+    "unawaited"
+  ]
 }
