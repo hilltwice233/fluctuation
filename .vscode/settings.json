@@ -1,4 +1,11 @@
 {
   "files.encoding": "utf8",
-  "files.eol": "\n"
+  "files.eol": "\n",
+
+  // File nesting for flutter.
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+    "pubspec.yaml": "pubspec.lock"
+  }
 }
