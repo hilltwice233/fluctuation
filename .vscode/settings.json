@@ -7,7 +7,8 @@
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.expand": false,
   "explorer.fileNesting.patterns": {
-    "pubspec.yaml": "pubspec.lock"
+    "pubspec.yaml": "pubspec.lock",
+    "readme.md": "license.txt"
   },
 
   // Default formatter and shell formatter options.
@@ -30,6 +31,7 @@
     "combinators",
     "esbenp",
     "foxundermoon",
+    "hilltwice",
     "ints",
     "pubspec",
     "redeclares",
