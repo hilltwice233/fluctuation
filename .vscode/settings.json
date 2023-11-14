@@ -1,6 +1,7 @@
 {
   "files.encoding": "utf8",
   "files.eol": "\n",
+  "editor.tabSize": 2,
 
   // File nesting for flutter.
   "explorer.fileNesting.enabled": true,
@@ -15,5 +16,8 @@
   "editor.codeActionsOnSave": {"source.organizeImports": true},
   "[shellscript]": {"editor.defaultFormatter": "foxundermoon.shell-format"},
   "[properties]": {"editor.defaultFormatter": "foxundermoon.shell-format"},
-  "[ignore]": {"editor.defaultFormatter": "foxundermoon.shell-format"}
+  "[ignore]": {"editor.defaultFormatter": "foxundermoon.shell-format"},
+
+  // Language specified formatter.
+  "[dart]": {"editor.defaultFormatter": "Dart-Code.dart-code"}
 }
