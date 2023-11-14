@@ -1,0 +1,14 @@
+name: fluctuation_gen
+description: Code generator for fluctuation.
+version: 0.0.0
+publish_to: "none"
+environment: {sdk: ^3.1.5}
+
+dependencies:
+  fluctuation_anno: {path: ../anno}
+  analyzer: ^6.2.0
+  build: ^2.4.1
+  source_gen: ^1.4.0
+
+dev_dependencies:
+  fluctuation_lints: {path: ../lints}
