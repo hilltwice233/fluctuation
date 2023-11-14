@@ -19,5 +19,11 @@
   "[ignore]": {"editor.defaultFormatter": "foxundermoon.shell-format"},
 
   // Language specified formatter.
-  "[dart]": {"editor.defaultFormatter": "Dart-Code.dart-code"}
+  "[dart]": {"editor.defaultFormatter": "Dart-Code.dart-code"},
+
+  // Spell check options.
+  "cSpell.ignorePaths": [],
+  "cSpell.useGitignore": true,
+  "cSpell.enableFiletypes": ["*"],
+  "cSpell.words": ["esbenp", "foxundermoon", "pubspec"]
 }
