@@ -5,7 +5,13 @@ publish_to: "none"
 environment: {sdk: ^3.1.5}
 
 dependencies:
-  fluctuation_anno: {path: ../anno}
+  # Relative path import is not available here.
+  fluctuation_anno:
+    git:
+      url: https://github.com/hilltwice233/fluctuation.git
+      ref: pre # stable branch is not prepared yet.
+      path: anno
+
   analyzer: ^6.2.0
   build: ^2.4.1
   source_gen: ^1.4.0
