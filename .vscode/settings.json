@@ -7,5 +7,13 @@
   "explorer.fileNesting.expand": false,
   "explorer.fileNesting.patterns": {
     "pubspec.yaml": "pubspec.lock"
-  }
+  },
+
+  // Default formatter and shell formatter options.
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {"source.organizeImports": true},
+  "[shellscript]": {"editor.defaultFormatter": "foxundermoon.shell-format"},
+  "[properties]": {"editor.defaultFormatter": "foxundermoon.shell-format"},
+  "[ignore]": {"editor.defaultFormatter": "foxundermoon.shell-format"}
 }
