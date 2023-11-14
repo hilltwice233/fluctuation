@@ -9,7 +9,7 @@ dependencies:
   fluctuation_anno:
     git:
       url: https://github.com/hilltwice233/fluctuation.git
-      ref: pre # stable branch is not prepared yet.
+      ref: main # Sync with latest because inside the monorepo.
       path: anno
 
   analyzer: ^6.2.0
