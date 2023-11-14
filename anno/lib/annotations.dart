@@ -1,3 +1,7 @@
+class Copy {
+  const Copy();
+}
+
 class StateData {
   const StateData({
     this.copy = false,
